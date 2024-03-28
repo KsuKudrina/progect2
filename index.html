@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cousine:ital,wght@0,400;0,700;1,400;1,700&family=Merriweather+Sans:ital,wght@0,300..800;1,300..800&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <nav class="header-topbar center">
+            <ul class="header-ul">
+                <li class="header-li"><a class="header-link" href="#">My Account</a></li>
+                <li class="header-li"><a class="header-link" href="#">MY Wishlist (0)</a></li>
+                <li class="header-li"><a class="header-link" href="#">Checkout</a></li>
+                <li class="header-li"><a class="header-link" href="#">Log In or Register</a></li>
+
+            </ul>
+            <div class="header-right">
+                <select class="header-down">
+                    <option value="us dollar">US Dollar</option>
+                    <option value="euro">Euro</option>
+                    <option value="pound st">Pound St.</option>
+                </select>
+                <select class="header-down">
+                    <option value="us dollar">ENGLISH</option>
+                    <option value="euro">Italian</option>
+                    <option value="pound st">Spanish</option>
+                    <option value="pound st">French</option>
+                    <option value="pound st">German</option>
+                </select>
+
+                <details class="basket">
+                    <summary class="button basket__button">
+                        My Bag: 0 item(s)
+                    </summary>
+                    <div class="box basket__box">
+
+                        <div class="basket-product">
+                            <h3 class="basket-head">Recently added item(s)</h3>
+                            <div class="basket-item">
+                                <a href="#" class="basket-pos">
+                                    <div class="basket-img"></div>
+                                    <div class="basket-content">
+                                        <p class="basket-headline">Mustard yellow ruffle dress</p>
+                                        <p class="basket-cost">$478</p>
+                                    </div>
+                                </a>
+                                <a class="basket-icons" href="#"></a>
+                            </div>
+                            <div class="basket-item">
+                                <a href="#" class="basket-pos">
+                                    <div class="basket-img"></div>
+                                    <div class="basket-content">
+                                        <p class="basket-headline">Navy Blue Silk Pleated Shift Dress</p>
+                                        <p class="basket-cost"><del class="basket-cost-del">$250</del> $180</p>
+                                    </div>
+                                </a>
+
+                                <a class="basket-icons" href="#"></a>
+                            </div>
+                            <div class="basket-total">
+                                <p class="basket-totaltext">Shipping: <span class="basket-totalprice">$7</span></p>
+                                <p class="basket-totaltext">Total: <span class="basket-totalprice">$736</span></p>
+                            </div>
+                        </div>
+                        <div class="basket-checkout">
+                            <div class="link-check">
+                                <a href="#" class="button link-check__button button_bg-none">Cart</a>
+                                <a href="#" class="button link-check__button button_bg-none">Checkout</a>
+                            </div>
+
+                        </div>
+                    </div>
+                </details>
+            </div>
+        </nav>
+        <form class="header-search center">
+            <input class="header-search-input" type="search" placeholder="Find it here...">
+            <button class="header-search-btn" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+        </form>
+        <section class="header-content center">
+            <div class="header-logo">
+                <img src="img/logo1.png" alt="">
+                <p class="header-logotype">FENGO</p>
+            </div>
+            <nav>
+                <div class="menu-container">
+                    <ul class="menu">
+                        <li class="menu-list"><a href="index.html" class="menu-link">Fashion</a>
+                            <div class="menu__box">
+                                <div class="menu-cont">
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Clothing________</h3>
+                                        <a href="#" class="menu-itemlink">Dresses</a>
+                                        <a href="#" class="menu-itemlink">Jeans & Trousers</a>
+                                        <a href="#" class="menu-itemlink">Blouses & Shirts</a>
+                                        <a href="#" class="menu-itemlink">Tops & T-Shirts</a>
+                                        <a href="#" class="menu-itemlink">Jackets & Coats</a>
+                                        <a href="#" class="menu-itemlink">Skirts</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">ACCESSORIES________</h3>
+                                        <a href="#" class="menu-itemlink">Bags & Purses</a>
+                                        <a href="#" class="menu-itemlink">Belts</a>
+                                        <a href="#" class="menu-itemlink">Gloves</a>
+                                        <a href="#" class="menu-itemlink">Jewellery</a>
+                                        <a href="#" class="menu-itemlink">Sunglasses</a>
+                                        <a href="#" class="menu-itemlink">Hair Accessories</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Sports________</h3>
+                                        <a href="#" class="menu-itemlink">Sport Tops & Vests</a>
+                                        <a href="#" class="menu-itemlink">Hoodies</a>
+                                        <a href="#" class="menu-itemlink">Swimwear</a>
+                                        <a href="#" class="menu-itemlink">Footwear</a>
+                                        <a href="#" class="menu-itemlink">Sports Underwear</a>
+                                        <a href="#" class="menu-itemlink">Bags</a>
+                                    </div>
+                                    <img src="img/menu-l.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list"><a href="product.html" class="menu-link">Electronics</a>
+                            <div class="menu__box">
+                                <div class="menu-cont">
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Clothing________</h3>
+                                        <a href="#" class="menu-itemlink">Dresses</a>
+                                        <a href="#" class="menu-itemlink">Jeans & Trousers</a>
+                                        <a href="#" class="menu-itemlink">Blouses & Shirts</a>
+                                        <a href="#" class="menu-itemlink">Tops & T-Shirts</a>
+                                        <a href="#" class="menu-itemlink">Jackets & Coats</a>
+                                        <a href="#" class="menu-itemlink">Skirts</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">ACCESSORIES________</h3>
+                                        <a href="#" class="menu-itemlink">Bags & Purses</a>
+                                        <a href="#" class="menu-itemlink">Belts</a>
+                                        <a href="#" class="menu-itemlink">Gloves</a>
+                                        <a href="#" class="menu-itemlink">Jewellery</a>
+                                        <a href="#" class="menu-itemlink">Sunglasses</a>
+                                        <a href="#" class="menu-itemlink">Hair Accessories</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Sports________</h3>
+                                        <a href="#" class="menu-itemlink">Sport Tops & Vests</a>
+                                        <a href="#" class="menu-itemlink">Hoodies</a>
+                                        <a href="#" class="menu-itemlink">Swimwear</a>
+                                        <a href="#" class="menu-itemlink">Footwear</a>
+                                        <a href="#" class="menu-itemlink">Sports Underwear</a>
+                                        <a href="#" class="menu-itemlink">Bags</a>
+                                    </div>
+                                    <img src="img/menu-l.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list"><a href="product.html" class="menu-link">Gifts</a>
+                            <div class="menu__box">
+                                <div class="menu-cont">
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Clothing________</h3>
+                                        <a href="#" class="menu-itemlink">Dresses</a>
+                                        <a href="#" class="menu-itemlink">Jeans & Trousers</a>
+                                        <a href="#" class="menu-itemlink">Blouses & Shirts</a>
+                                        <a href="#" class="menu-itemlink">Tops & T-Shirts</a>
+                                        <a href="#" class="menu-itemlink">Jackets & Coats</a>
+                                        <a href="#" class="menu-itemlink">Skirts</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">ACCESSORIES________</h3>
+                                        <a href="#" class="menu-itemlink">Bags & Purses</a>
+                                        <a href="#" class="menu-itemlink">Belts</a>
+                                        <a href="#" class="menu-itemlink">Gloves</a>
+                                        <a href="#" class="menu-itemlink">Jewellery</a>
+                                        <a href="#" class="menu-itemlink">Sunglasses</a>
+                                        <a href="#" class="menu-itemlink">Hair Accessories</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Sports________</h3>
+                                        <a href="#" class="menu-itemlink">Sport Tops & Vests</a>
+                                        <a href="#" class="menu-itemlink">Hoodies</a>
+                                        <a href="#" class="menu-itemlink">Swimwear</a>
+                                        <a href="#" class="menu-itemlink">Footwear</a>
+                                        <a href="#" class="menu-itemlink">Sports Underwear</a>
+                                        <a href="#" class="menu-itemlink">Bags</a>
+                                    </div>
+                                    <img src="img/menu-l.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list"><a href="product.html" class="menu-link">Books</a>
+                            <div class="menu__box">
+                                <div class="menu-cont">
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Clothing________</h3>
+                                        <a href="#" class="menu-itemlink">Dresses</a>
+                                        <a href="#" class="menu-itemlink">Jeans & Trousers</a>
+                                        <a href="#" class="menu-itemlink">Blouses & Shirts</a>
+                                        <a href="#" class="menu-itemlink">Tops & T-Shirts</a>
+                                        <a href="#" class="menu-itemlink">Jackets & Coats</a>
+                                        <a href="#" class="menu-itemlink">Skirts</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">ACCESSORIES________</h3>
+                                        <a href="#" class="menu-itemlink">Bags & Purses</a>
+                                        <a href="#" class="menu-itemlink">Belts</a>
+                                        <a href="#" class="menu-itemlink">Gloves</a>
+                                        <a href="#" class="menu-itemlink">Jewellery</a>
+                                        <a href="#" class="menu-itemlink">Sunglasses</a>
+                                        <a href="#" class="menu-itemlink">Hair Accessories</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Sports________</h3>
+                                        <a href="#" class="menu-itemlink">Sport Tops & Vests</a>
+                                        <a href="#" class="menu-itemlink">Hoodies</a>
+                                        <a href="#" class="menu-itemlink">Swimwear</a>
+                                        <a href="#" class="menu-itemlink">Footwear</a>
+                                        <a href="#" class="menu-itemlink">Sports Underwear</a>
+                                        <a href="#" class="menu-itemlink">Bags</a>
+                                    </div>
+                                    <img src="img/menu-l.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list"><a href="product.html" class="menu-link">At Home</a>
+                            <div class="menu__box">
+                                <div class="menu-cont">
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Clothing________</h3>
+                                        <a href="#" class="menu-itemlink">Dresses</a>
+                                        <a href="#" class="menu-itemlink">Jeans & Trousers</a>
+                                        <a href="#" class="menu-itemlink">Blouses & Shirts</a>
+                                        <a href="#" class="menu-itemlink">Tops & T-Shirts</a>
+                                        <a href="#" class="menu-itemlink">Jackets & Coats</a>
+                                        <a href="#" class="menu-itemlink">Skirts</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">ACCESSORIES________</h3>
+                                        <a href="#" class="menu-itemlink">Bags & Purses</a>
+                                        <a href="#" class="menu-itemlink">Belts</a>
+                                        <a href="#" class="menu-itemlink">Gloves</a>
+                                        <a href="#" class="menu-itemlink">Jewellery</a>
+                                        <a href="#" class="menu-itemlink">Sunglasses</a>
+                                        <a href="#" class="menu-itemlink">Hair Accessories</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Sports________</h3>
+                                        <a href="#" class="menu-itemlink">Sport Tops & Vests</a>
+                                        <a href="#" class="menu-itemlink">Hoodies</a>
+                                        <a href="#" class="menu-itemlink">Swimwear</a>
+                                        <a href="#" class="menu-itemlink">Footwear</a>
+                                        <a href="#" class="menu-itemlink">Sports Underwear</a>
+                                        <a href="#" class="menu-itemlink">Bags</a>
+                                    </div>
+                                    <img src="img/menu-l.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list last"><a href="product.html" class="menu-link">Music</a>
+                            <div class="menu__box">
+                                <div class="menu-cont">
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Clothing________</h3>
+                                        <a href="#" class="menu-itemlink">Dresses</a>
+                                        <a href="#" class="menu-itemlink">Jeans & Trousers</a>
+                                        <a href="#" class="menu-itemlink">Blouses & Shirts</a>
+                                        <a href="#" class="menu-itemlink">Tops & T-Shirts</a>
+                                        <a href="#" class="menu-itemlink">Jackets & Coats</a>
+                                        <a href="#" class="menu-itemlink">Skirts</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">ACCESSORIES________</h3>
+                                        <a href="#" class="menu-itemlink">Bags & Purses</a>
+                                        <a href="#" class="menu-itemlink">Belts</a>
+                                        <a href="#" class="menu-itemlink">Gloves</a>
+                                        <a href="#" class="menu-itemlink">Jewellery</a>
+                                        <a href="#" class="menu-itemlink">Sunglasses</a>
+                                        <a href="#" class="menu-itemlink">Hair Accessories</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Sports________</h3>
+                                        <a href="#" class="menu-itemlink">Sport Tops & Vests</a>
+                                        <a href="#" class="menu-itemlink">Hoodies</a>
+                                        <a href="#" class="menu-itemlink">Swimwear</a>
+                                        <a href="#" class="menu-itemlink">Footwear</a>
+                                        <a href="#" class="menu-itemlink">Sports Underwear</a>
+                                        <a href="#" class="menu-itemlink">Bags</a>
+                                    </div>
+                                    <img src="img/menu-l.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                        <li class="menu-list last"><a href="product.html" class="menu-link">Sale</a>
+                            <div class="menu__box">
+                                <div class="menu-cont">
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Clothing________</h3>
+                                        <a href="#" class="menu-itemlink">Dresses</a>
+                                        <a href="#" class="menu-itemlink">Jeans & Trousers</a>
+                                        <a href="#" class="menu-itemlink">Blouses & Shirts</a>
+                                        <a href="#" class="menu-itemlink">Tops & T-Shirts</a>
+                                        <a href="#" class="menu-itemlink">Jackets & Coats</a>
+                                        <a href="#" class="menu-itemlink">Skirts</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">ACCESSORIES________</h3>
+                                        <a href="#" class="menu-itemlink">Bags & Purses</a>
+                                        <a href="#" class="menu-itemlink">Belts</a>
+                                        <a href="#" class="menu-itemlink">Gloves</a>
+                                        <a href="#" class="menu-itemlink">Jewellery</a>
+                                        <a href="#" class="menu-itemlink">Sunglasses</a>
+                                        <a href="#" class="menu-itemlink">Hair Accessories</a>
+                                    </div>
+                                    <div class="menu-item">
+                                        <h3 class="menu__heading">Sports________</h3>
+                                        <a href="#" class="menu-itemlink">Sport Tops & Vests</a>
+                                        <a href="#" class="menu-itemlink">Hoodies</a>
+                                        <a href="#" class="menu-itemlink">Swimwear</a>
+                                        <a href="#" class="menu-itemlink">Footwear</a>
+                                        <a href="#" class="menu-itemlink">Sports Underwear</a>
+                                        <a href="#" class="menu-itemlink">Bags</a>
+                                    </div>
+                                    <img src="img/menu-l.png" alt="">
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </section>
+    </header>
+    <main class="main">
+        <section class="top center">
+            <div></div>
+            <div class="top-cont">
+                <h3 class="top-subtitle">Check your</h3>
+                <h1 class="top-title">autumn style</h1>
+                <h2 class="top-subject">All the trends you need this season</h2>
+                <p class="top-text">read it now <i class="fa fa-angle-right" aria-hidden="true"></i></p>
+            </div>
+        </section>
+        <section class="category center">
+            <div class="category-item item1">
+                <div class="category-cont">
+                    <div class="category-exclusive">
+                        <h3 class="category-title">_____exclusive_____</h3>
+                        <h4 class="category-subtitle">discount codes & offers</h4>
+
+                    </div>
+                </div>
+                <div class="category-detailed">
+                    <a class="category-detailed-link" href="#">get your discount <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="category-item item2">
+                <div class="category-hottest">
+                    <p class="category-hottest-text">the</p>
+                    <h3 class="category-hottest-title">__hottest styles__</h3>
+                    <h4 class="category-hottest-subtitle">are here</h4>
+                </div>
+                <div class="category-detailed">
+                    <a class="category-detailed-link" href="#">watch now <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="category-item item3">
+                <div class="category-jewelry">
+                    <h3 class="category-jewelry-title">jewelry</h3>
+                    <h4 class="category-jewelry-subtitle">every third item is free!</h4>
+                </div>
+                <div class="category-detailed">
+                    <a class="category-detailed-link" href="#">buy now <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="category-item item4">
+                <div class="category-lookbook">
+                    <h3 class="category-lookbook-title">LOOKBOOK</h3>
+                    <p class="category-lookbook-text">_______ women _______</p>
+                    <h4 class="category-lookbook-subtitle">autumn 2013</h4>
+                </div>
+                <div class="category-detailed">
+                    <a class="category-detailed-link" href="#">get the look <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="category-item item5">
+                <div class="category-accessories">
+                    <h3 class="category-accessories-title">__accessories__</h3>
+                    <h4 class="category-accessories-subtitle">Complete your style</h4>
+                </div>
+                <div class="category-detailed">
+                    <a class="category-detailed-link" href="#">get the look <i class="fa fa-angle-right"
+                            aria-hidden="true"></i></a>
+                </div>
+            </div>
+            <div class="category-item item6">
+                <div class="category-what">
+                    <h3 class="category-what-title">what's new?</h3>
+                </div>
+            </div>
+        </section>
+
+        <section class="products center">
+            <nav class="products-heading">
+                <a href="#" class="products-link">new arrivals</a>
+                <a href="#" class="products-link">Featured</a>
+                <a href="#" class="products-link">Special</a>
+                <a href="#" class="products-link">bestsellers</a>
+            </nav>
+            <div class="product center">
+                <div class="product-box">
+                    <div class="product-img"></div>
+                    <div class="product-content">
+                        <div class="product-info">
+                            <a href="#" class="product-title">Carded Cotton Shawl Cardigan</a>
+                        </div>
+                        <p class="product-price">$187</p>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-img"></div>
+                    <div class="product-content">
+                        <div class="product-info">
+                            <a href="#" class="product-title">Shetland Wool Full-Zip Sweater</a>
+                        </div>
+                        <p class="product-price"><del class="product-price-del">$180</del> $110</p>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-img"></div>
+                    <div class="product-content">
+                        <div class="product-info">
+                            <a href="#" class="product-title">Mustard Yellow Ruffle White Shirt</a>
+                        </div>
+                        <p class="product-price">$478</p>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-img"></div>
+                    <div class="product-content">
+                        <div class="product-info">
+                            <a href="#" class="product-title">Fine Custom-Fit Poplin Regent</a>
+                            <div class="product-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <p class="product-price">$1150</p>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-img"></div>
+                    <div class="product-content">
+                        <div class="product-info">
+                            <a href="#" class="product-title">Carded Cotton Shawl Cardigan</a>
+                            <div class="product-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                                <i class="fa fa-star fa-star-col" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <p class="product-price">$248</p>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-img"></div>
+                    <div class="product-content">
+                        <div class="product-info">
+                            <a href="#" class="product-title">Shetland Wool Full-Zip Sweater</a>
+                        </div>
+                        <p class="product-price"> $657</p>
+                    </div>
+
+                </div>
+                <div class="product-box">
+                    <div class="product-img"></div>
+                    <div class="product-content">
+                        <div class="product-info">
+                            <a href="#" class="product-title">Mustard Yellow Ruffle White Shirt</a>
+                            <div class="product-star">
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                                <i class="fa fa-star" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                        <p class="product-price"><del class="product-price-del">$321</del> $214</p>
+                    </div>
+                </div>
+                <div class="product-box">
+                    <div class="product-img"></div>
+                    <div class="product-content">
+                        <div class="product-info">
+                            <a href="#" class="product-title">Fine Custom-Fit Poplin Regent</a>
+                        </div>
+                        <p class="product-price">$147</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-content center">
+            <div class="footer-item footer-item1">
+                <h3 class="footer-title">About fengo shop</h3>
+
+                <figure class="footer-fig">
+                    <div class="footer-item1-img"></div>
+                    <div class="contbox footer-item1__contbox">
+                        <p class="footer-text">Morbi pretium odio in dapibus varius. Integer sagittis, tellus ac
+                            venenatis
+                            venenatis, ipsum ligula auctor lectus, suscipit velit quam quis turpis. Fusce scelerisque
+                            aliquet commodo. Sed lobortis laoreet risus vitae tincidunt. Ut consectetur nec purus in
+                            egestas. Pellentesque vehicula urna purus.</p>
+                        <a class="footer-link" href="#">Read more <i class="fa fa-angle-right"
+                                aria-hidden="true"></i></a>
+                    </div>
+                </figure>
+            </div>
+            <div class="footer-item footer-item2">
+                <h3 class="footer-title">Most favorite</h3>
+                <div class="contbox footer-item2__contbox">
+                    <div class="footer-item2-product">
+                        <div class="footer-item2-img"></div>
+                        <div class="footer-item2-content">
+                            <div class="footer-item2-info">
+                                <a href="#" class="footer-item2-title">Shetland Wool Full-Zip Sweater</a>
+                            </div>
+                            <p class="footer-item2-price">$478</p>
+                        </div>
+                    </div>
+                    <div class="footer-item2-product">
+                        <div class="footer-item2-img"></div>
+                        <div class="footer-item2-content">
+                            <div class="footer-item2-info">
+                                <a href="#" class="footer-item2-title">Shetland Wool Full-Zip Sweater</a>
+                            </div>
+                            <p class="footer-item2-price"><del class="footer-item2-price-del">$250</del> $180</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item footer-item3">
+                <h3 class="footer-title">INFORMATION</h3>
+                <nav class="footer-item-linkbox">
+                    <a href="#" class="footer-item-link">New products</a>
+                    <a href="#" class="footer-item-link">Top sellers</a>
+                    <a href="#" class="footer-item-link">Specials products</a>
+                    <a href="#" class="footer-item-link">Manufacturers</a>
+                    <a href="#" class="footer-item-link">Suppliers</a>
+                    <a href="#" class="footer-item-link">Our stores</a>
+                </nav>
+            </div>
+            <div class="footer-item footer-item4">
+                <h3 class="footer-title">From the Blog</h3>
+                <div class="contbox footer-item4__contbox">
+                    <div class="footer-item4-cont">
+                        <div class="footer-item4-img"></div>
+                        <p class="footer-item4-text">Pellentesque vehicula urna purus</p>
+                    </div>
+                    <div class="footer-item4-cont">
+                        <div class="footer-item4-img"></div>
+                        <p class="footer-item4-text">Curabitur faucibus aliquam felis quis</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item footer-item5">
+                <div class="footer-item5-head">
+                    <h3 class="footer-title">Twitter</h3>
+                    <button class="but footer-item5__but" type="submit">Follow</button>
+                </div>
+                <div class="footer-item5-content">
+                    <div class="footer-item5-twitt">
+                        <div class="footer-item5-twitthead">
+                            <img src="img/logo.png" alt="">
+                            <div class="footer-item5-twittitle">
+                                <p class="footer-item5-title">Promokit</p>
+                                <p class="footer-item5-email">@marek_mnishek</p>
+                            </div>
+                        </div>
+                        <p class="footer-item5-text">Vivamus id quam quis velit semper adipiscing nec in libero.
+                            Praesent quis lectus at justo ornare laoreet.
+                            Proin luctus viverra <a class="footer-item5-text-li" href="#">bit.ly/1byZ6QM</a>
+                        </p>
+                        <div class="contbox footer-item5__contbox">
+                            <p class="footer-item5-data">9 October 2013</p>
+                            <p class="footer-item5-act"><i class="fa fa-share" aria-hidden="true"></i> Reply </p>
+                            <p class="footer-item5-act"> <i class="fa fa-retweet" aria-hidden="true"></i> Retweet
+                            </p>
+                        </div>
+                    </div>
+                    <div class="footer-item5-twitt">
+                        <div class="footer-item5-twitthead">
+                            <img src="img/logo.png" alt="">
+                            <div class="footer-item5-twittitle">
+                                <p class="footer-item5-title">Promokit</p>
+                                <p class="footer-item5-email">@marek_mnishek</p>
+                            </div>
+                        </div>
+                        <p class="footer-item5-text">We’ve just finished and released our new eCommerce PSD template
+                            "Venedor" More details here: <a class="footer-item5-text-li" href="#">bit.ly/19SYsM6</a>
+                        </p>
+                        <div class="footer-item5-action">
+                            <p class="footer-item5-data">9 October 2013</p>
+                            <p class="footer-item5-act"><i class="fa fa-share" aria-hidden="true"></i> Reply </p>
+                            <p class="footer-item5-act"> <i class="fa fa-retweet" aria-hidden="true"></i> Retweet
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-item footer-item6">
+                <h3 class="footer-title">MY ACCOUNT</h3>
+                <nav class="footer-item-linkbox">
+                    <a href="#" class="footer-item-link">My account</a>
+                    <a href="#" class="footer-item-link">Personal information</a>
+                    <a href="#" class="footer-item-link">Addresses</a>
+                    <a href="#" class="footer-item-link">Discount</a>
+                    <a href="#" class="footer-item-link">Orders history</a>
+                    <a href="#" class="footer-item-link">Your Vouchers</a>
+                </nav>
+            </div>
+            <div class="footer-item footer-item7">
+                <h3 class="footer-title">QUICK CONTACT</h3>
+
+                <div class="footer-item7-cont">
+                    <div class="contbox footer-item7__contbox">
+                        <img class="footer-item7-img" src="img/shape.png" alt="share">
+                        <form class="footer-forma" action="">
+                            <input class="footer-input" type="name" placeholder="ENTER YOUR NAME">
+                            <input class="footer-input" type="email" name="email" id="email"
+                                placeholder="ENTER YOUR E-MAIL">
+                            <input class="footer-mess" type="text" name="message" id="message"
+                                placeholder="ENTER YOUR MESSAGE">
+                            <a class="footer-link" href="#">Send message <i class="fa fa-angle-right"
+                                    aria-hidden="true"></i></a>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+            <div class="footer-item footer-item8">
+                <div class="contbox footer-item8__contbox">
+                    <h3 class="footer-title">facebook</h3>
+                    <button class="but footer-item8__but" type="submit">LIKE</button>
+                </div>
+                <h4 class="footer-item8-subtitle">1452 people like <span
+                        class="footer-item8-subtitle-col">PromoKit</span>
+                </h4>
+                <div class="footer-item8-grid">
+                    <div class="footer-item8-img"></div>
+                    <div class="footer-item8-img"></div>
+                    <div class="footer-item8-img"></div>
+                    <div class="footer-item8-img"></div>
+                    <div class="footer-item8-img"></div>
+                    <div class="footer-item8-img"></div>
+                    <div class="footer-item8-img"></div>
+                    <div class="footer-item8-img"></div>
+                </div>
+            </div>
+            <div class="footer-item footer-item9">
+                <h3 class="footer-title">CUSTOMER SERVICE</h3>
+                <nav class="footer-item-linkbox">
+                    <a href="#" class="footer-item-link">Help & contact</a>
+                    <a href="#" class="footer-item-link">Shipping & taxes</a>
+                    <a href="#" class="footer-item-link">Return policy</a>
+                    <a href="#" class="footer-item-link">Careers</a>
+                    <a href="#" class="footer-item-link">Affiliates</a>
+                    <a href="#" class="footer-item-link">Legal Notice</a>
+                </nav>
+            </div>
+            <div class="footer-item footer-item10">
+                <input class="footer-item10-input" type="email" name="email" id="email"
+                    placeholder="ENTER YOUR E-MAIL FOR STAY IN THE KNOW">
+            </div>
+            <div class="footer-item footer-item11">
+                <h3 class="footer-title">CONTACT INFO</h3>
+                <nav class="footer-item-linkbox">
+                    <a href="#" class="footer-item-link">Vigo Shop Ltd</a>
+                    <a href="#" class="footer-item-link">United Kingdom</a>
+                    <a href="#" class="footer-item-link">London 02587</a>
+                    <a href="#" class="footer-item-link">Oxford Street 48/188</a>
+                    <a href="#" class="footer-item-link">Working days: Mon. - Sun.</a>
+                    <a href="#" class="footer-item-link">Working hours: 9 AM - 8 PM</a>
+                </nav>
+            </div>
+            <div class="footer-item footer-item12">
+                <div class="contbox footer-item12__contbox">
+                    <div class="footer-item12-left">
+                        <div class="footer-item12-card">
+                            <img src="img/card/credit_card1.png" alt="card1">
+                            <img src="img/card/credit_card2.png" alt="card2">
+                            <img src="img/card/credit_card3.png" alt="card3">
+                            <img src="img/card/credit_card4.png" alt="card4">
+                            <img src="img/card/credit_card5.png" alt="card5">
+                            <img src="img/card/credit_card6.png" alt="card6">
+                        </div>
+                        <p class="footer-item12-text">© 2013 Powered by WooCommerce™. All Rights Reserved.</p>
+                    </div>
+                    <div class="footer-item12-icons">
+                        <div class="footer-item12-icon">
+                            <a href="">
+                                <i class="fa fa-facebook foo-icon" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="footer-item12-icon">
+                            <a href="">
+                                <i class="fa fa-tumblr foo-icon" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="footer-item12-icon">
+                            <a href="">
+                                <i class="fa fa-rss foo-icon" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="footer-item12-icon">
+                            <a href="">
+                                <i class="fa fa-delicious foo-icon" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="footer-item12-icon">
+                            <a href="">
+                                <i class="fa fa-linkedin foo-icon" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="footer-item12-icon">
+                            <a href="">
+                                <i class="fa fa-github-alt foo-icon" aria-hidden="true"></i></a>
+                        </div>
+                        <div class="footer-item12-icon">
+                            <a href="">
+                                <i class="fa fa-skype foo-icon" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                        <div class="footer-item12-icon">
+                            <a href="">
+                                <i class="fa fa-envelope foo-icon" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
